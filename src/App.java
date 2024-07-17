@@ -16,17 +16,7 @@ public class App {
             System.out.println("how");
         }
 
-        switch(type){
-            case null:
-            System.out.println("nameless fruit");
-            break;
-            case "orange":
-            System.out.println("named fruit");
-            break;
-            default:
-            System.out.println("how");
-        }
-
+        
         orange.fruitName = "orange";
         orange.grow(15);
 
